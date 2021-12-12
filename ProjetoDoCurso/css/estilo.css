@@ -9,7 +9,7 @@
 header {
     width: 100%;
     height: 150px;
-    background-color: rgb(105, 9, 214);
+    background-color: #006cb5;
     position:relative;
 }
 
@@ -18,7 +18,7 @@ header .container {
 }
 
 header .header-black{
-    background-color: #000;
+    background-color: #e9d045;
     padding-left:450px;
     height: 40px;
 }
@@ -86,7 +86,7 @@ header #logotipo{
     
 }
 #menu li.search input{
-    background-color: #720ae9;
+    background-color: #006cb5;
     margin-top: 7px;
     color: #fff;
     border:none;
@@ -113,7 +113,7 @@ header #logotipo{
     font-family: Opens-Sans-Light;
     font-size:92px;
     position:relative;
-    color:rgb(226, 15, 15);
+    color:#ed3237;
     text-shadow: 2px 2px 2px rgba(0,0,0,.45);
     margin-left: 32px;
 }
@@ -121,7 +121,7 @@ header #logotipo{
     top:330px;
     font-size:32px;
     position:relative;
-    color:rgb(226, 15, 15);
+    color:#ed3237;
     text-shadow: 2px 2px 2px rgba(0,0,0,.45);
     z-index: 0;
     font-family: Opens-Sans-Light;
@@ -130,7 +130,7 @@ header #logotipo{
 
 #news h2{
     margin-top:30px;
-    color:#7305e7;
+    color:#006cb5;
     font-family: 'Opens-Sans-Light';
     font-size: 48px;
     text-align: center;
@@ -143,4 +143,177 @@ header #logotipo{
 
 #premios {
     margin-left: 100px;
+}
+
+#premios.thumbnails h3 {
+    color:#ed3237;
+    font-size: 18px;
+    font-family: 'Open-Sans';
+    font-weight:bold;
+}
+
+#estatisticas{
+    background-color: #006cb5;
+    width: 100%;
+    height: 200px
+}
+#estatisticas p{
+    color:#FDE092;
+    font-family: 'Opens-Sans';
+    text-transform: uppercase;
+    font-size: 64px;
+    margin-top:30px;
+    text-align: center;
+}
+#estatisticas p small{
+    color:#FFF;
+    font-family: 'Opens-Sans-Light';
+    text-transform: uppercase;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}
+#call-to-action{
+    text-align: center;
+    margin-top: 110px;
+}
+#call-to-action h2{
+    margin-top:30px;
+    color:#006cb5;
+    font-family: 'Opens-Sans-Light';
+    font-size: 48px;
+    text-align: center;
+}
+#call-to-action hr{
+    border: #f5c84e solid 8px;
+    width:200px;
+    margin: 0 auto;
+}
+#call-to-action p{
+    margin-top: 60px;
+    margin-bottom:40px;
+}
+#call-to-action .btn-azul{
+    color:#fff;
+    background-color:#006cb5;
+    border-color:#ccc;
+    min-width: 164px;
+    height:44px;
+}
+
+#call-to-action .btn-red{
+    color:#000;
+    background-color:#ed3237;
+    border-color:#ccc;
+    min-width: 164px;
+    height:44px;
+}
+footer{
+    margin-top:100px;
+    width: 100%;
+}
+footer .row{
+    width:100%;    
+}
+footer .row-cinza-claro{
+    width: 100%;
+    height:200px;
+    background-color:#171F26;
+}
+footer .row-cinza-escuro{
+    width: 100%;
+    height:60px;
+    background-color:#11171D;
+    border-top: #242D37 1px solid;
+    margin-bottom:10px;
+}
+footer .row-cinza-escuro p{
+    margin-bottom: 0px;
+}
+
+footer .left{
+    margin-left: 50px;
+    color:#fff;
+}
+footer .right{
+    margin-left: 80%;
+    color:#fff;
+    bottom:10px;
+}
+footer .logotipo{
+    margin-top:25px;
+}
+footer .col-popular-post,
+footer .col-link,
+footer .col-get-in-touch {
+    margin-top: 40px;
+}
+footer .row-col h4{
+   font-family:'Open-Sans';
+   font-size: 16px;
+   color:#FFF;
+   border-bottom: #242D37 1px solid; 
+}
+footer .col-link ul li {
+    font-family: Arial;
+    font-size: 16px;
+    color:#FFF;
+    text-decoration: none;
+   margin-top: 30px;
+
+ }
+ footer .col-link ul li i {
+    margin-right: 5px;
+ }
+footer .col-link ul li a{
+   font-family: Arial;
+   font-size: 16px;
+   color:#FFF;
+   text-decoration: none;
+}
+footer .col-get-in-touch p a {
+    text-decoration: none;
+ }
+footer .col-get-in-touch p a span{
+    font-family: Arial;
+    font-size: 16px;
+    color:#FFF;
+    text-decoration: none;
+    margin-left:10px;
+ }
+ 
+footer .col-get-in-touch address{
+    color:#666;
+    
+}
+footer .col-get-in-touch address span{
+    display:inline-block;
+    
+}
+footer .col-get-in-touch i{
+    color:#9B9B9B;
+}
+footer .social i{
+    color:#9B9B9B;
+    font-size:20px;
+    border:#9B9B9B 1px solid;
+    width:28px;
+    height:28px;
+    line-height: 28px;
+    border-radius: 14px;
+    
+}
+
+footer .list-socials {
+    margin-left:250px;
+    margin-bottom: 2px;
+    display: flex ;
+
+}
+
+section .thumbnails h3{
+    display:inline-block;
+}
+footer .endereco{
+    display: flex;
 }
